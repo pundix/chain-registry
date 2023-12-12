@@ -1,0 +1,62 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "Pundix",
+  "assets": [
+    {
+      "description": "Pundi X Token",
+      "denom_units": [
+        {
+          "denom": "ibc/55367b7b6572631b78a93c66ef9fdfce87cde372cc4ed7848da78c1eb1dcdd78",
+          "exponent": 0
+        },
+        {
+          "denom": "PUNDIX",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/55367b7b6572631b78a93c66ef9fdfce87cde372cc4ed7848da78c1eb1dcdd78",
+      "name": "Pundi X Token",
+      "display": "PUNDIX",
+      "symbol": "PUNDIX",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundix.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundix.svg"
+      },
+      "coingecko_id": "pundi-x-2",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundix.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundix.svg"
+        }
+      ]
+    },
+    {
+      "description": "PURSE Token",
+      "denom_units": [
+        {
+          "denom": "bsc0x29a63f4b209c29b4dc47f06ffa896f32667dad2c",
+          "exponent": 0
+        },
+        {
+          "denom": "PURSE",
+          "exponent": 18
+        }
+      ],
+      "base": "bsc0x29a63f4b209c29b4dc47f06ffa896f32667dad2c",
+      "name": "PURSE Token",
+      "display": "PURSE",
+      "symbol": "PURSE",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse.svg"
+      },
+      "coingecko_id": "pundi-x-2",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse.svg"
+        }
+      ]
+    }
+  ]
+}
