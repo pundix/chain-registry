@@ -1,9 +1,9 @@
 {
   "$schema": "../chain.schema.json",
-  "chain_name": "Pundix",
+  "chain_name": "Pundi X Chain",
   "chain_id": "PUNDIX",
   "website": "https://pundix.com",
-  "pretty_name": "Pundix",
+  "pretty_name": "Pundi X Chain",
   "status": "live",
   "network_type": "mainnet",
   "bech32_prefix": "px",
@@ -95,39 +95,39 @@
       {
         "id": "78d3eb3f15a20ab1d567660d35776abe0dee71d0",
         "address": "pundix-mainnet-seed-node-1.pundix.com:26656",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       },
       {
         "id": "3c37c6c42dfd9094117549794299a62d49c122eb",
         "address": "pundix-mainnet-seed-node-2.pundix.com:26656",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       }
     ],
     "persistent_peers": [
       {
         "id": "8bd41ea9f8ba7cfee4d19887cab487cdfc1177f4",
         "address": "pundix-mainnet-node-1.pundix.com:26656",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       },
       {
         "id": "6c1738220234a5e1b3caf94403ecd651e9759952",
         "address": "pundix-mainnet-node-2.pundix.com:26656",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       },
       {
         "id": "23abe2346d40f82cf0606e47931e58752f8b9348",
         "address": "pundix-mainnet-node-3.pundix.com:26656",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       },
       {
         "id": "20d275af6d025be144765291db5337ea059cce18",
         "address": "pundix-mainnet-node-4.pundix.com:26656",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       },
       {
         "id": "47f97d7baf028ddfd3b223baab0fa062eae75310",
         "address": "pundix-mainnet-node-5.pundix.com:26656",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       }
     ]
   },
@@ -135,21 +135,32 @@
     "rpc": [
       {
         "address": "https://px-json.pundix.com",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       }
     ],
     "rest": [
       {
         "address": "https://px-rest.pundix.com",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       }
     ],
     "grpc": [
       {
         "address": "https://px-grpc.pundix.com",
-        "provider": "Pundix"
+        "provider": "Pundi X"
       }
     ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-chain-logo.png"
+    },
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-chain-logo.svg"
+    }
+  ],
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-chain-logo.png"
   },
   "explorers": [
     {

@@ -1,6 +1,6 @@
 {
   "$schema": "../assetlist.schema.json",
-  "chain_name": "Pundix",
+  "chain_name": "Pundi X Chain",
   "assets": [
     {
       "description": "Pundi X Token",
@@ -19,14 +19,28 @@
       "display": "PUNDIX",
       "symbol": "PUNDIX",
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundix.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundix.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
       },
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "fxcore",
+            "base_denom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-0",
+            "path": "transfer/channel-0/eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38"
+          }
+        }
+      ],
       "coingecko_id": "pundi-x-2",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundix.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundix.svg"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/pundi-x-token-logo.svg"
         }
       ]
     },
@@ -47,14 +61,14 @@
       "display": "PURSE",
       "symbol": "PURSE",
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
       },
-      "coingecko_id": "pundi-x-2",
+      "coingecko_id": "pundi-x-purse",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse.svg"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
         }
       ]
     }
